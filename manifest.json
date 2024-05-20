@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "TabFocus Enhancer",
+    "version": "0.0.1",
+    "description": "A Chrome Extension",
+    "icons": {
+        "128": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+      ]
+}
+
